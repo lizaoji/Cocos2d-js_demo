@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+org.ccdt.jsdt.core.codeComplete.visibilityCheck=enabled
+org.ccdt.jsdt.core.timeoutForParameterNameFromAttachedJavadoc=50

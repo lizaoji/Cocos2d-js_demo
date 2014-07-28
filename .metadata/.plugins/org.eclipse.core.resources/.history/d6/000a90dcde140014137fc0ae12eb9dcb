@@ -1,0 +1,24 @@
+
+var CrazySheepLayer = cc.Layer.extend({
+    ctor:function () {
+        //////////////////////////////
+        // 1. super init first
+        this._super();
+        var size = cc.director.getWinSize();        
+        // add Bg
+        
+        var bgLayer = cc.Sprite.create(res.Bg_png);
+        bgLayer.setPosition(100,200);
+        this.addChild(bgLayer);
+        return true;
+    }
+});
+
+var CrazySheepScene = cc.Scene.extend({
+    onEnter:function () {
+        this._super();
+        var layer = new CrazySheepLayer();
+        this.addChild(layer);
+    }
+});
+

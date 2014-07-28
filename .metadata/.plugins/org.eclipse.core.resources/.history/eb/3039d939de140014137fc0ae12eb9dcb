@@ -1,0 +1,32 @@
+
+var CrazySheepLayer = cc.Layer.extend({
+    isMouseDown:false,
+    helloImg:null,
+    helloLabel:null,
+    circle:null,
+    sprite:null,
+
+    ctor:function () {
+        //////////////////////////////
+        // 1. super init first
+        this._super();
+        var size = cc.director.getWinSize();        
+        // add Bg
+        this.sprite = cc.Sprite.create(res.Bg_png);
+        this.sprite.attr({
+            x: size.width / 2,
+            y: size.height / 2
+        });
+        lazyLayer.addChild(this.sprite, 0);
+        return true;
+    }
+});
+
+var CrazySheepScene = cc.Scene.extend({
+    onEnter:function () {
+        this._super();
+        var layer = new CrazySheepLayer();
+        this.addChild(layer);
+    }
+});
+

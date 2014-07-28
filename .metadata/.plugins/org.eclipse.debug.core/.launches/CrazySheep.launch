@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.ccdt.debug.core.cocosLaunchConfigType">
+<mapAttribute key="argument_map">
+<mapEntry key="androidHost" value="127.0.0.1"/>
+<mapEntry key="androidruntime" value="runtime/android/PrebuiltRuntimeJs.apk"/>
+<mapEntry key="iosHost" value="127.0.0.1"/>
+<mapEntry key="iosSimulatorFamily" value="iPhone Retina (3.5-inch)"/>
+<mapEntry key="iosruntime" value="runtime/ios/PrebuiltRuntimeJs.app"/>
+<mapEntry key="launchActivity" value="org.cocos2dx.javascript.AppActivity"/>
+<mapEntry key="macruntime" value="runtime/mac/PrebuiltRuntimeJs.app"/>
+<mapEntry key="packageName" value="org.cocos2dx.PrebuiltRuntimeJs"/>
+<mapEntry key="project" value="CrazySheep"/>
+<mapEntry key="useAdbMode" value="true"/>
+<mapEntry key="useSimulator" value="true"/>
+</mapAttribute>
+<stringAttribute key="connector_id" value="jsbinding.mac.attach.connector"/>
+<stringAttribute key="org.eclipse.debug.core.source_locator_id" value="org.ccdt.debug.core.sourceLocator"/>
+<stringAttribute key="org.eclipse.debug.core.source_locator_memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;sourceLookupDirector&gt;&#10;&lt;sourceContainers duplicates=&quot;true&quot;&gt;&#10;&lt;container memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#10;&amp;lt;default/&amp;gt;&amp;#10;&quot; typeId=&quot;org.eclipse.debug.core.containerType.default&quot;/&gt;&#10;&lt;/sourceContainers&gt;&#10;&lt;/sourceLookupDirector&gt;&#10;"/>
+</launchConfiguration>

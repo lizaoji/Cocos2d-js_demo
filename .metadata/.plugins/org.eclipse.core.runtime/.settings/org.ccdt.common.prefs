@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+org.ccdt.common.jdk_path=/usr/bin
+org.ccdt.common.js_engine_custompath=/Users/lizaoji/Program/Cocos/Cocos_Source/cocos2d-js-v3.0-rc0
+org.ccdt.common.js_engine_path=/Users/lizaoji/Program/Cocos/Cocos_Source/cocos2d-js-v3.0-rc0
+org.ccdt.common.python_path=/usr/bin
