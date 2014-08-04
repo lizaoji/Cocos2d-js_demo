@@ -10,8 +10,7 @@ var res = {
     item_multiply2: "res/老版资源/x2.png",
     item_multiply05: "res/老版资源/x0.5.png",
     item_multiply1: "res/老版资源/x1.png",
-    shoot_hole: "res/老版资源/弹孔.png",
-    test: ""
+    shoot_hole: "res/老版资源/弹孔.png"
 };
 
 var g_resources = [];
